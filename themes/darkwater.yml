@@ -1,0 +1,106 @@
+# Dark Ocean Theme
+theme-version: "1.1"
+
+name: "Dark Ocean"
+
+general:
+  use-default-minecraft-font: "toggle(optional)"
+  high-quality-rendering: "toggle(optional)"
+
+hud:
+  shape: "shape(ROUNDED_RECTANGLE)"
+  colour:
+    background: "color(5, 10, 20, 85)" # Dark ocean blue
+    text-primary-on: "color(0, 200, 200)" # Bright aqua
+    text-normal: "color(140, 180, 200)" # Soft grey-blue
+    text-primary-off: "color(0, 130, 130)" # Muted teal
+
+window:
+  colour:
+    background: "color(10, 15, 25)" # Deep midnight
+  shape: "shape(ROUNDED_RECTANGLE)"
+
+panels:
+  colour:
+    background: "color(15, 20, 35)" # Slightly lighter blue
+    scroller: "color(0, 150, 200, 50)"
+    scroller-hover: "color(0, 200, 250, 100)"
+  shape: "shape(ROUNDED_RECTANGLE)"
+
+menu-selection:
+  colour:
+    background: "color(20, 25, 40)"
+    not-selected-icon: "color(80, 120, 140)"
+    selected-icon: "color(0, 200, 200)"
+    hover-icon: "color(100, 240, 240)"
+  shape: "shape(ROUNDED_RECTANGLE)"
+
+text:
+  colour:
+    standard: "color(140, 180, 200)"
+    subtitle: "color(160, 200, 220)"
+    title: "color(0, 200, 200)"
+    categories-title: "color(0, 200, 200)"
+    selected-category: "color(100, 240, 240)"
+    hover-category: "color(80, 220, 240)"
+    search-top-result: "color(0, 200, 200)"
+  misc:
+    disable-shadows: false
+
+components:
+  general:
+    colour:
+      background: "color(20, 25, 40)"
+      background-hover: "color(25, 30, 45)"
+      background-hover-2: "color(18, 23, 38)"
+    shape: "shape(ROUNDED_RECTANGLE)"
+  text-enter:
+    colour:
+      valid: "color(0, 200, 200)"
+      invalid: "color(200, 50, 50)"
+      unfocused: "color(15, 20, 30)"
+      unfocused-hover: "color(20, 25, 35)"
+    shape: "shape(ROUNDED_RECTANGLE)"
+  toggle:
+    colour:
+      enabled: "color(0, 200, 200)"
+      enabled-hover: "color(100, 240, 240)"
+      disabled: "color(80, 120, 140)"
+      disabled-hover: "color(100, 150, 170)"
+      icon: "color(200, 240, 255, 220)"
+    shapes:
+      bar: "shape(ROUNDED_RECTANGLE)"
+      icon: "shape(ROUNDED_RECTANGLE)"
+  slider:
+    colour:
+      bar: "color(0, 200, 200)"
+      bar-hover: "color(100, 240, 240)"
+      icon: "color(200, 240, 255, 220)"
+    shapes:
+      bar: "shape(ROUNDED_RECTANGLE)"
+      icon: "shape(CIRCLE)"
+  selection:
+    colour:
+      normal: "color(15, 20, 30)"
+      hover: "color(20, 25, 35)"
+    shape: "shape(ROUNDED_RECTANGLE)"
+  safety-slider:
+    colour:
+      safe: "color(0, 200, 200)"
+      warning: "color(255, 200, 100)"
+      danger: "color(200, 50, 50)"
+  multi-farm-options:
+    colour:
+      background: "color(5, 10, 20, 230)"
+      background-hover: "color(10, 15, 25)"
+      background-selected: "color(15, 20, 30)"
+      text-selected: "color(140, 180, 200)"
+    shape: "shape(ROUNDED_RECTANGLE)"
+  banwave:
+    colour:
+      safe: "color(0, 200, 200)"
+      warning: "color(255, 200, 100)"
+      danger: "color(200, 50, 50)"
+  async-image:
+    colour:
+      loading: "color(0, 200, 200)"

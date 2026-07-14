@@ -1,0 +1,105 @@
+theme-version: "1.1"
+
+name: "Dark"
+
+general:
+  use-default-minecraft-font: "toggle(optional)"
+  high-quality-rendering: "toggle(optional)"
+
+hud:
+  shape: "shape(ROUNDED_RECTANGLE)"
+  colour:
+    background: "color(40, 40, 40, 62)"
+    text-primary-on: "color(152, 151, 26)"
+    text-normal: "color(235, 219, 178)"
+    text-primary-off: "color(204, 36, 29)"
+
+window:
+  colour:
+    background: "color(40, 40, 40)"
+  shape: "shape(ROUNDED_RECTANGLE)"
+
+panels:
+  colour:
+    background: "color(40, 40, 40)"
+    scroller: "color(0, 0, 0, 50)"
+    scroller-hover: "color(0, 0, 0, 100)"
+  shape: "shape(ROUNDED_RECTANGLE)"
+
+menu-selection:
+  colour:
+    background: "color(60, 56, 54)"
+    not-selected-icon: "color(146, 131, 116)"
+    selected-icon: "color(251, 73, 52)"
+    hover-icon: "color(243, 123, 79)"
+  shape: "shape(ROUNDED_RECTANGLE)"
+
+text:
+  colour:
+    standard: "color(235, 219, 178)"
+    subtitle: "color(189, 174, 154)"
+    title: "color(235, 219, 178)"
+    categories-title: "color(251, 73, 52)"
+    selected-category: "color(235, 159, 95)"
+    hover-category: "color(243, 123, 79)"
+    search-top-result: "color(251, 73, 52)"
+  misc:
+    disable-shadows: false
+
+components:
+  general:
+    colour:
+      background: "color(60, 56, 54)"
+      background-hover: "color(80, 73, 69)"
+      background-hover-2: "color(70, 66, 63)"
+    shape: "shape(ROUNDED_RECTANGLE)"
+  text-enter:
+    colour:
+      valid: "color(152, 151, 26)"
+      invalid: "color(204, 36, 29)"
+      unfocused: "color(60, 56, 54)"
+      unfocused-hover: "color(70, 66, 63)"
+    shape: "shape(ROUNDED_RECTANGLE)"
+  toggle:
+    colour:
+      enabled: "color(152, 151, 26)"
+      enabled-hover: "color(184, 181, 52)"
+      disabled: "color(204, 36, 29)"
+      disabled-hover: "color(228, 82, 73)"
+      icon: "color(235, 219, 178)"
+    shapes:
+      bar: "shape(ROUNDED_RECTANGLE)"
+      icon: "shape(ROUNDED_RECTANGLE)"
+  slider:
+    colour:
+      bar: "color(204, 36, 29)"
+      bar-hover: "color(228, 82, 73)"
+      icon: "color(235, 219, 178)"
+    shapes:
+      bar: "shape(ROUNDED_RECTANGLE)"
+      icon: "shape(CIRCLE)"
+  selection:
+    colour:
+      normal: "color(60, 56, 54)"
+      hover: "color(70, 66, 63)"
+    shape: "shape(ROUNDED_RECTANGLE)"
+  safety-slider:
+    colour:
+      safe: "color(152, 151, 26)"
+      warning: "color(215, 153, 33)"
+      danger: "color(204, 36, 29)"
+  multi-farm-options:
+    colour:
+      background: "color(40, 40, 40)"
+      background-hover: "color(60, 56, 54)"
+      background-selected: "color(70, 66, 63)"
+      text-selected: "color(189, 174, 154)"
+    shape: "shape(ROUNDED_RECTANGLE)"
+  banwave:
+    colour:
+      safe: "color(152, 151, 26)"
+      warning: "color(215, 153, 33)"
+      danger: "color(204, 36, 29)"
+  async-image:
+    colour:
+      loading: "color(204, 36, 29)"
